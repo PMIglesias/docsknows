@@ -1,0 +1,38 @@
+[
+  {
+    "id": "qaTesting",
+    "icon": "BiTerminal",
+    "label": "QA Testing",
+    "to": "/home"
+  },
+  {
+    "id": "introQA",
+    "icon": "BiBug",
+    "label": "Introducción al QA",
+    "goToMenu": "introqa"
+  },
+  {
+    "id": "testingManual",
+    "icon": "BiBug",
+    "label": "Testing Manual",
+    "goToMenu": "testingmanual"
+  },
+  {
+    "id": "testingAutomation",
+    "icon": "BiBug",
+    "label": "Testing Automation Y Performance",
+    "goToMenu": "testingautomation",
+    "subMenu": [
+      {
+        "id": "subItem1",
+        "label": "Submenú Item 1",
+        "to": "/subitem1"
+      },
+      {
+        "id": "subItem2",
+        "label": "Submenú Item 2",
+        "to": "/subitem2"
+      }
+    ]
+  }
+]
